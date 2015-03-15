@@ -1,0 +1,21 @@
+{
+  "name": "generator-zetta",
+  "version": "0.1.0",
+  "description": "Create a Zetta Server http://yeoman.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anil614sagar/generator-zetta.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "main": "app/index.js",
+  "author": "Anil Sagar <anil614sagar@gmail.com> (https://in.linkedin.com/in/anilsagar/)",
+  "bugs": {
+    "url": "https://github.com/anil614sagar/generator-zetta/issues"
+  },
+  "homepage": "https://github.com/anil614sagar/generator-zetta",
+  "dependencies": {
+    "yeoman-generator": "^0.18.10"
+  }
+}

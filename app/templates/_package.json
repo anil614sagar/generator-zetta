@@ -1,0 +1,24 @@
+{
+  "name": "<%= slugname %>",
+  "version": "<%= props.version %>",
+  "description": "<%= props.description %>",
+  "author": {
+    "name": "<%= props.authorName %>",
+    "email": "<%= props.authorEmail %>"<% if (props.authorUrl) { %>,
+    "url": "<%= props.authorUrl %>"<% } %>
+  },
+  "main": "server.js",
+  "repository": "<%= repoUrl %>",
+  "bugs": "<%= repoUrl %>/issues",
+  "license": "<%= props.license %>",
+  "files": [
+    "server.js"
+  ],
+  "keywords": [
+    "zetta", "<%= slugname %>"<% for (var i = 0; i < keywords.length; i++) { %>,
+    "<%= keywords[i] %>"<% } %>
+  ],
+  "dependencies": {
+    "zetta" : "latest"
+  }
+}
